@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="meme.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Create Viral Memes!</h1>
+    
+    <form action="" method='GET' id="memeForm">
+        <div>
+            <label for="image-url" id="imageURL"><b>Image URL:</b> </label>
+            <input type="url" image-url" id="image-url" placeholder="Paste image URL here..." required>
+        </div> 
+        <br>
+        <div>
+            <label for="top-text"><b>Top Text: &nbsp;&nbsp;&nbsp;&nbsp;</b> </label> 
+            <input type="text" name="top-text" id="top-text" placeholder="Memes are">
+            <br>
+            <label for="color" class="checkbox-label">Check box for white TOP text</label>
+            <input type="checkbox" name="top-text-color" id="top-text-color" class="color">
+        </div>
+        <br>
+        <div>
+            <label for="bottom-text"><b>Bottom Text: </b></label>
+            <input type="text" name="bottom-text" id="bottom-text" placeholder="Great!">
+            <br>
+            <label for="color" class="checkbox-label">Check box for white BOTTOM text</label>
+            <input type="checkbox" name="top-text-color" id="bottom-text-color" class = "color">
+        </div>
+        <br>
+    
+        <button type="submit" id="submitButton">Submit</button>
+        
+        <button type="reset" id="resetButton">Reset</button>
+    </div>
+    </form>
+    <br>
+    <hr>
+    <div id="pics-here">
+   
+    </div>
+
+
+
+    <script src="meme.js"></script>
+    
+</body>
+</html>

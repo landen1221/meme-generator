@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+}
+h1 {
+    text-align: center;
+}
+
+hr {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+input[type=text]{
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 1px;
+    
+}
+input[type=url]{
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=checkbox] {
+    color: red
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    margin-left: 5%;
+    margin-bottom: 1px;
+}
+
+.checkbox-label {
+    margin-left: 15%;    
+}
+
+.container {
+    background-color: #f2f2f2;
+    padding: 15px;
+    padding-bottom: 50px;
+}
+
+.close-button {
+    width: 45px;
+    opacity: 50%;
+    position: absolute;
+    left: 540px;
+    top: 10px
+}
+
+img {
+    position: relative;
+    width: 600px;
+    border-radius: 10px;
+    margin-left: 20px
+}
+
+
+button {
+    padding: 8px;
+}
+
+p {
+    display: inline;
+    position: absolute;
+    left: 5px;
+    width: 600px;
+    text-align: center;
+    font-size: 3.25vw;
+    font-weight: bold;
+    padding: 0;
+    margin: 3px;
+    opacity: 95%;
+    
+}
+
+#resetButton {
+    background-color: blue;
+    color: #ffffff;
+    float: right;
+    margin-right: 1%
+}
+
+#submitButton {
+    background-color: lightgreen;
+    float: right;
+    margin-right: 10%;
+}
