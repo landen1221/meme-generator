@@ -1,5 +1,3 @@
-
-
 document.getElementById("submitButton").addEventListener('click', function(e) {
     e.preventDefault()
     
@@ -11,7 +9,6 @@ document.getElementById("submitButton").addEventListener('click', function(e) {
     
     addImage(imgURL, topText, bottomText, checkboxTop, checkboxBottom);
 
-   
 })
 
 
@@ -65,7 +62,6 @@ function addText(checkboxTop, checkboxBottom, newDiv, topText, bottomText) {
             e.target.parentElement.remove()
         })
     })
-
 
     closeButton.addEventListener('mouseout', function(e) {
         e.target.style.opacity = '50%'
